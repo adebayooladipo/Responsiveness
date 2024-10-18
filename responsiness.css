@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(142, 130, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doublebar{
+    display: none;
+}
+.home a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
+.all{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+.text-overlay{
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    gap: 40px;
+}
+.image-text{
+    display: flex;
+}
+.image-text img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-overlay{
+    position: absolute;
+    bottom: 200px;
+    left: 450px;
+    color: white;
+   padding: 5px;
+   text-align: center;
+}
+.shop button{
+    margin-top: 20px;
+    padding: 10px 7px
+}
+.product h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.product p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.newborn img{
+    height: 350px;
+    margin-left: 20px;
+}
+.gift1 button{
+    margin-bottom: 50px;
+    margin-left: 120px;
+    padding: 10px 7px;
+}
+.newborn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
